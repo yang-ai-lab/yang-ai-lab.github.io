@@ -978,7 +978,8 @@ a.member-card:hover h3,
   margin-bottom: .4rem;
 }
 
-.alumni-list a {
+.alumni-list a,
+.alumni-list .alumni-name {
   color: var(--blue);
   font-weight: 500;
 }
