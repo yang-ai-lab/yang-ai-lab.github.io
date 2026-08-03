@@ -985,11 +985,18 @@ a.member-card:hover h3,
 }
 
 .sponsor-grid {
+  margin-top: 1.25rem;
+}
+
+.sponsor-row {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   gap: 2.35rem;
   justify-content: flex-start;
+}
+
+.sponsor-row + .sponsor-row {
   margin-top: 1.25rem;
 }
 
@@ -1030,6 +1037,11 @@ a.member-card:hover h3,
 .sponsor-card-openai img {
   max-height: 2.9rem;
   max-width: 7.8rem;
+}
+
+.sponsor-card-nvidia img {
+  max-height: 4.4rem;
+  max-width: 7.2rem;
 }
 
 .sponsor-intro {
