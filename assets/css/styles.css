@@ -790,6 +790,12 @@ main {
   margin-bottom: .4rem;
 }
 
+.pub-authors sup {
+  font-size: .7em;
+  line-height: 0;
+  vertical-align: super;
+}
+
 .lab-member {
   border-bottom: 1px solid rgba(0, 0, 0, .65);
   font-weight: inherit;
@@ -959,6 +965,14 @@ a.member-card:hover h3,
   text-align: center;
 }
 
+.member-card .member-award {
+  color: rgba(239, 63, 100, .8);
+  font-size: .88rem;
+  font-weight: inherit;
+  margin: .15rem 0 0;
+  text-align: center;
+}
+
 .member-grid-empty {
   display: block;
 }
@@ -996,10 +1010,6 @@ a.member-card:hover h3,
   justify-content: flex-start;
 }
 
-.sponsor-row + .sponsor-row {
-  margin-top: 1.25rem;
-}
-
 .sponsor-card {
   align-items: center;
   display: flex;
@@ -1015,6 +1025,15 @@ a.member-card:hover h3,
   max-height: 4.8rem;
   max-width: 12rem;
   object-fit: contain;
+}
+
+.sponsor-card-nih {
+  margin-right: .65rem;
+}
+
+.sponsor-card-biswas,
+.sponsor-card-nvidia {
+  margin-right: .8rem;
 }
 
 .sponsor-card-nsf img {

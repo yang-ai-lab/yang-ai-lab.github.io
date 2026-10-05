@@ -74,7 +74,7 @@
 
   if (newsList && newsMoreButton) {
     var newsItems = Array.prototype.slice.call(newsList.querySelectorAll("li"));
-    var visibleNewsCount = 6;
+    var visibleNewsCount = 9;
 
     function updateNewsList() {
       newsItems.forEach(function (item, index) {
